@@ -1,0 +1,49 @@
+{
+  "name": "parcel-transformer-ejs",
+  "version": "0.1.0",
+  "description": "Parcel v2 transformer plugin for EJS",
+  "engines": {
+    "node": ">= 12.0.0",
+    "parcel": "^2.0.0-beta.1"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "eslint ./lib",
+    "lint:fix": "eslint --fix ./lib"
+  },
+  "lint-staged": {
+    "lib/*.js": ["eslint --fix ./lib", "git add"]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarscode/parcel-transformer-ejs.git"
+  },
+  "keywords": [
+    "parcel",
+    "parcel-transformer",
+    "parcel-plugin",
+    "ejs"
+  ],
+  "author": "Salifu Sani Rich <salifusanirich@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sarscode/parcel-transformer-ejs/issues"
+  },
+  "homepage": "https://github.com/sarscode/parcel-transformer-ejs#readme",
+  "dependencies": {
+    "@parcel/plugin": "^2.0.0-alpha.3",
+    "ejs": "^3.1.6"
+  },
+  "devDependencies": {
+    "eslint": "^7.26.0",
+    "eslint-config-prettier": "^8.3.0",
+    "husky": "^6.0.0",
+    "lint-staged": "^11.0.0",
+    "prettier": "^2.3.0"
+  }
+}
