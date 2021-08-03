@@ -20,6 +20,7 @@ npm i -D parcel-transformer-ejs
 ```
 
 Reference [Parcel plugin configuration](https://v2.parceljs.org/configuration/plugin-configuration/)
+Reference [Simple Parcel 2 PUG Transformer](https://github.com/parcel-bundler/parcel/blob/v2/packages/transformers/pug/src/PugTransformer.js)
 
 ## Customization
 
