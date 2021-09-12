@@ -6,9 +6,6 @@
     "node": ">= 12.0.0",
     "parcel": "^2.0.0-beta.1"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
-  },
   "main": "lib/index.js",
   "scripts": {
     "lint": "eslint ./lib",
