@@ -12,7 +12,10 @@
     "lint:fix": "eslint --fix ./lib"
   },
   "lint-staged": {
-    "lib/*.js": ["eslint --fix ./lib", "git add"]
+    "lib/*.js": [
+      "eslint --fix ./lib",
+      "git add"
+    ]
   },
   "husky": {
     "hooks": {
