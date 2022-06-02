@@ -40,7 +40,7 @@
   "homepage": "https://github.com/sarscode/parcel-transformer-ejs#readme",
   "dependencies": {
     "@parcel/plugin": "^2.0.0-alpha.3",
-    "ejs": "^3.1.6"
+    "ejs": "^3.1.8"
   },
   "devDependencies": {
     "eslint": "^7.26.0",
