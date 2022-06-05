@@ -19,11 +19,11 @@ npm i -D parcel-transformer-ejs
 }
 ```
 
-Reference [Parcel plugin configuration](https://v2.parceljs.org/configuration/plugin-configuration/)
+Reference [Parcel plugin configuration](https://parceljs.org/features/plugins/)
 
 ## Customization
 
-You can add custom options for ejs templating engine using a `.ejsrc`, `.ejsrc.js` or `ejs.config.js` file.
+You can add custom options for ejs templating engine using a `.ejsrc`, `.ejsrc.json`, `.ejsrc.js` or `ejs.config.js` file.
 
 ### Example
 

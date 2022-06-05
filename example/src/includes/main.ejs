@@ -1,0 +1,43 @@
+<div class="container">
+  <h1>parcel-transformer-ejs</h1>
+  <p>Parcel v2 transformer plugin for EJS.</p>
+  <h2>Installation</h2>
+  <code>npm i -D parcel-transformer-ejs</code>
+  <h2>Configuration</h2>
+  <pre>
+{
+  "extends": ["@parcel/config-default"],
+  "transformers": {
+    "*.ejs": ["parcel-transformer-ejs"]
+  }
+}</pre
+  >
+  <p>
+    Reference
+    <a href="https://parceljs.org/features/plugins/"
+      >Parcel plugin configuration</a
+    >
+  </p>
+  <h2>Customization</h2>
+  <p>
+    You can add custom options for ejs templating engine using a
+    <span class="code">.ejsrc</span>, <span class="code">.ejsrc.json</span>,
+    <span class="code">.ejsrc.js</span> or
+    <span class="code">ejs.config.js</span> file.
+  </p>
+  <h3>Example</h3>
+  <p>For example, you can set local variables using <samp>.ejsrc</samp>.</p>
+  <pre>
+{
+  "locals": {
+    "foo": "bar"
+  }
+}</pre
+  >
+  <p>
+    For more information on customization options, see
+    <a href="https://ejs.co/#docs">EJS Options Documentation</a>
+  </p>
+  <h2>License</h2>
+  <p>MIT</p>
+</div>

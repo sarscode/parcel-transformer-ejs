@@ -1,0 +1,17 @@
+{
+  "name": "example",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "source": "src/index.ejs",
+  "scripts": {
+    "dev": "parcel"
+  },
+  "keywords": [],
+  "author": "Salifu Sani Rich <salifusanirich@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^2.6.0",
+    "parcel-transformer-ejs": "file:.."
+  }
+}
