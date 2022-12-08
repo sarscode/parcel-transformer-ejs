@@ -5,9 +5,8 @@ Parcel v2 transformer plugin for EJS.
 ## Installation
 
 ```sh
-npm i -D parcel-transformer-ejs@0.2.1
+npm i -D parcel-transformer-ejs
 ```
-> PS: v1.0.0 is currently broken. Please use v0.2.1 pending to a fix.
 
 ## Configuration
 
