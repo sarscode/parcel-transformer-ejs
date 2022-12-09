@@ -1,10 +1,10 @@
 {
   "name": "parcel-transformer-ejs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Parcel v2 transformer plugin for EJS",
   "engines": {
     "node": ">= 12.0.0",
-    "parcel": "^2.0.0-beta.1"
+    "parcel": "^2.8.1"
   },
   "main": "lib/index.js",
   "scripts": {
@@ -39,14 +39,14 @@
   },
   "homepage": "https://github.com/sarscode/parcel-transformer-ejs#readme",
   "dependencies": {
-    "@parcel/plugin": "^2.0.0-alpha.3",
+    "@parcel/plugin": "^2.8.1",
     "ejs": "^3.1.8"
   },
   "devDependencies": {
-    "eslint": "^7.26.0",
-    "eslint-config-prettier": "^8.3.0",
-    "husky": "^6.0.0",
-    "lint-staged": "^11.0.0",
-    "prettier": "^2.3.0"
+    "eslint": "^8.29.0",
+    "eslint-config-prettier": "^8.5.0",
+    "husky": "^8.0.2",
+    "lint-staged": "^13.1.0",
+    "prettier": "^2.8.1"
   }
 }
